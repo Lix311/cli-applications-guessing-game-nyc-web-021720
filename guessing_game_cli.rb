@@ -9,6 +9,8 @@ def run_guessing_game
     elsif random_number != user_input
       puts "Sorry! The computer guessed #{random_number}"
     else 
-    end 
+    return
+    end
+return 
 end 
 
